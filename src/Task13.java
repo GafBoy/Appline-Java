@@ -10,15 +10,13 @@ public class Task13 {
         int length1 = str1.length();
         int length2 = str2.length();
         if (length1 < length2) {
-            System.out.println("Строка с большей длинной : "+ str2);
-        }
-            else if (length1 > length2) {
-                System.out.println("Строка с большей длинной : "+ str1);
-            }
-            else if (length1 == length2) {
-                System.out.println("Длины строк равны");
+            System.out.println("Строка с большей длинной : " + str2);
+        } else if (length1 > length2) {
+            System.out.println("Строка с большей длинной : " + str1);
+        } else if (length1 == length2) {
+            System.out.println("Длины строк равны");
 
-            }
         }
     }
+}
 

@@ -19,7 +19,7 @@ public class Task15 {
                 }
             }
         }
-        for(int i = 0; i < lenght; i++) {
+        for (int i = 0; i < lenght; i++) {
             System.out.println("Отсортированный массив: " + mass[i]);
         }
     }

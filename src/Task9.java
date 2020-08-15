@@ -6,13 +6,13 @@ public class Task9 {
 
         System.out.print("Введите размер массива: ");
         int j = in.nextInt();
-        int mass[]=new int[j];
+        int mass[] = new int[j];
 
-        for( int i=0; i<j; i++){
-            mass[i]=in.nextInt();
+        for (int i = 0; i < j; i++) {
+            mass[i] = in.nextInt();
         }
-        for(int i=0; i<j; i++) {
-            System.out.println(mass[i]*2);
+        for (int i = 0; i < j; i++) {
+            System.out.println(mass[i] * 2);
         }
     }
 }

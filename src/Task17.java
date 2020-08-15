@@ -19,7 +19,7 @@ public class Task17 {
         } catch (IOException exc) {
             System.out.println("Ошибка ввода-вывода " + exc);
 
-            }
         }
-
     }
+
+}

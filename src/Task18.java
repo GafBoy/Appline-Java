@@ -15,16 +15,16 @@ public class Task18 {
         System.out.println("Количество строк: " + lines);
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-            try (FileWriter fw = new FileWriter("Task18.txt")) {    for (int i = 0; i < lines; i++) {
-                do {
-                    System.out.print(": ");
-                    txt = br.readLine();
-                    txt = txt + "\r\n";
-                    fw.write(txt);
-                } while (i == lines);  }
-            } catch (IOException exc) {
-                System.out.println("Ошибка ввода-вывода " + exc);
-
+        try (FileWriter fw = new FileWriter("Task18.txt")) {
+            String t = "";
+            for (int i = 0; i < lines; i++) {
+                System.out.print(": ");
+                t = t + br.readLine() + "\r\n";
             }
+            fw.write(t);
+        } catch (IOException exc) {
+            System.out.println("Ошибка ввода-вывода " + exc);
+
         }
     }
+}

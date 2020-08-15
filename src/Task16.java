@@ -9,8 +9,8 @@ public class Task16 {
             while ((txt = br.readLine()) != null) {
                 System.out.println(txt);
             }
-        }catch (IOException exc) {
-            System.out.println("Ошибка ввода-вывода: "+ exc);
+        } catch (IOException exc) {
+            System.out.println("Ошибка ввода-вывода: " + exc);
         }
     }
 }
