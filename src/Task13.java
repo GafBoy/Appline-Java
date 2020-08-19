@@ -13,7 +13,7 @@ public class Task13 {
             System.out.println("Строка с большей длинной : " + str2);
         } else if (length1 > length2) {
             System.out.println("Строка с большей длинной : " + str1);
-        } else if (length1 == length2) {
+        } else {
             System.out.println("Длины строк равны");
 
         }
